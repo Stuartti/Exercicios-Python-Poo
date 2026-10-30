@@ -6,7 +6,7 @@ def test_professor_completo():
     professor01.set_cpf(11055233242)
     professor01.set_titulacao("Doutorado")
 
-    assert professor01.get_nome() == "Carlos"
+    assert professor01.get_nome() == "Samuel"
     assert professor01.get_cpf() == 11055233242
     assert professor01.get_titulacao() == "Doutorado"
 
