@@ -4,4 +4,8 @@ __pycache__/
 *.pyc
 
 # PyCharm
+.idea/.venv/
+__pycache__/
 .idea/
+*.pyc
+.pytest_cache/
