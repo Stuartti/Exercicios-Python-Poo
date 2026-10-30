@@ -1,0 +1,398 @@
+{
+  "version": "1.0",
+  "generator": "PyDiagram",
+  "nodes": [
+    {
+      "id": "node_0",
+      "title": "Escola",
+      "x": 420.0,
+      "y": 700.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_1",
+      "title": "Cidade",
+      "x": 220.0,
+      "y": 700.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_2",
+      "title": "Estado",
+      "x": 220.0,
+      "y": 550.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_3",
+      "title": "Curso",
+      "x": 420.0,
+      "y": 420.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_4",
+      "title": "Tipoensino",
+      "x": 220.0,
+      "y": 300.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_5",
+      "title": "Professor",
+      "x": 620.0,
+      "y": 200.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_6",
+      "title": "Aluno",
+      "x": 420.0,
+      "y": 200.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_7",
+      "title": "Escolaridade",
+      "x": 650.0,
+      "y": 50.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    },
+    {
+      "id": "node_8",
+      "title": "Pessoa",
+      "x": 420.0,
+      "y": 50.0,
+      "width": 170.0,
+      "height": 94.0,
+      "is_abstract": false,
+      "title_font_family": "Segoe UI",
+      "title_font_size": 10,
+      "title_color": "#1e293b",
+      "attributes": [],
+      "methods": []
+    }
+  ],
+  "anchors": [],
+  "connections": [
+    {
+      "id": "conn_0",
+      "source_id": "node_0",
+      "target_id": "node_5",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "+direcao",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": [
+        {
+          "x": 858.0,
+          "y": 746.0
+        },
+        {
+          "x": 857.0,
+          "y": 244.0
+        }
+      ]
+    },
+    {
+      "id": "conn_1",
+      "source_id": "node_0",
+      "target_id": "node_3",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_2",
+      "source_id": "node_0",
+      "target_id": "node_1",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_3",
+      "source_id": "node_1",
+      "target_id": "node_8",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "",
+        "name": "+naturalidade",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": [
+        {
+          "x": 127.0,
+          "y": 744.0
+        },
+        {
+          "x": 130.0,
+          "y": 95.0
+        }
+      ]
+    },
+    {
+      "id": "conn_4",
+      "source_id": "node_2",
+      "target_id": "node_1",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "trtr",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_5",
+      "source_id": "node_3",
+      "target_id": "node_5",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "+coordenacao",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": [
+        {
+          "x": 702.0,
+          "y": 478.0
+        }
+      ]
+    },
+    {
+      "id": "conn_6",
+      "source_id": "node_5",
+      "target_id": "node_3",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "+contratacao",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_7",
+      "source_id": "node_4",
+      "target_id": "node_3",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_8",
+      "source_id": "node_6",
+      "target_id": "node_3",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_9",
+      "source_id": "node_8",
+      "target_id": "node_7",
+      "connection_type": "Association",
+      "type": "Association",
+      "end1_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "1",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_10",
+      "source_id": "node_5",
+      "target_id": "node_8",
+      "connection_type": "Generalization",
+      "type": "Generalization",
+      "end1_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    },
+    {
+      "id": "conn_11",
+      "source_id": "node_6",
+      "target_id": "node_8",
+      "connection_type": "Generalization",
+      "type": "Generalization",
+      "end1_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "end2_props": {
+        "multiplicity": "",
+        "name": "",
+        "visibility": "public",
+        "navigable": "unspecified"
+      },
+      "waypoints": []
+    }
+  ]
+}
