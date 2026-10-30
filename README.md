@@ -1,5 +1,7 @@
 # Exercícios de Programação Orientada a Objetos em Python
 
+[![Python application](https://github.com/Stuartti/Exercicios-Python-Poo/actions/workflows/python-app.yml/badge.svg)](https://github.com/Stuartti/Exercicios-Python-Poo/actions/workflows/python-app.yml)
+
 Este repositório contém a resolução de uma lista de exercícios práticos de Orientação a Objetos (POO) em Python. O foco principal é a aplicação de conceitos fundamentais, como encapsulamento (uso de getters e setters), herança e polimorfismo.
 
 Todo o código desenvolvido é validado por uma suíte de testes automatizados utilizando a biblioteca `pytest`.
