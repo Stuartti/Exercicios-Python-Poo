@@ -63,7 +63,12 @@ class Professor(Pessoa):
         self.__curso_contratacao = None
         self.__escola = None
         self.__nome = None
+        self.__curso = None
 
+    def set_curso(self, curso):
+        self.__curso = curso
+    def get_curso(self):
+        return self.__curso
     def set_curso_contratacao(self, curso):
         self.__curso_contratacao = curso
     def get_curso_contratacao(self):
@@ -81,6 +86,11 @@ class Professor(Pessoa):
             return "Professor sem tipo de ensino"
         else:
             return self.__curso_contratacao.get_tipo_ensino().get_nome()
+    def get_nome_coordenador(self):
+        if self.__curso is None:
+            return "Professor sem curso"
+        else:
+            return self.__curso.get_nome_coordenador()
 
     def get_nome_diretor_escola(self):
         if self.__escola is None:
